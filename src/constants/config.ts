@@ -46,7 +46,7 @@ export const config: TConfig = {
   },
   hero: {
     name: "Nitesh",
-    p: ["I build AI applications, machine learning", "pipelines, and intelligent agent workflows."],
+    p: ["AI Engineer | Generative AI | LLM Applications | RAG", "LangChain | LangGraph | AI Agents | MCP | Multi-Agent Systems"],
   },
   contact: {
     p: "Get in touch",
@@ -67,7 +67,7 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I am an AI Application Developer and Data Science enthusiast with a Bachelor of Technology in Artificial Intelligence and Data Science. I specialize in building intelligent applications using Large Language Models (LLMs), LangChain, Retrieval-Augmented Generation (RAG), and agentic workflows with LangGraph. I develop and deploy robust APIs with FastAPI and Flask, create data visualization dashboards, and design predictive machine learning pipelines. I am passionate about automating workflows and solving real-world challenges with cutting-edge AI technologies.`,
+      content: `I build AI-powered applications with Python, Large Language Models, and retrieval-augmented generation. My work brings together LangChain, LangGraph, semantic search, and vector databases to create useful LLM experiences and agentic workflows. I also work with FastAPI, MCP, Agent-to-Agent (A2A) communication, and multi-agent orchestration to develop practical AI systems for real-world and enterprise use.`,
     },
     experience: {
       p: "What I have done so far",

@@ -34,8 +34,11 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
               className="h-full w-full rounded-2xl object-cover"
             />
             <div className="card-img_hover absolute inset-0 m-3 flex justify-end">
-              <div
-                onClick={() => window.open(sourceCodeLink, "_blank")}
+              {sourceCodeLink && <a
+                href={sourceCodeLink}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={`View ${name} source code on GitHub`}
                 className="black-gradient flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
               >
                 <img
@@ -43,7 +46,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
                   alt="github"
                   className="h-1/2 w-1/2 object-contain"
                 />
-              </div>
+              </a>}
             </div>
           </div>
           <div className="mt-5">

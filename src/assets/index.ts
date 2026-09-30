@@ -21,6 +21,19 @@ import ai from "./tech/ai.png";
 import jupyter from "./tech/jupyter.png";
 import vscode from "./tech/vscode.png";
 import mysql from "./tech/mysql.png";
+import genai from "./tech/genai.png";
+import aiagents from "./tech/aiagents.png";
+import agenticai from "./tech/agenticai.png";
+import promptengineering from "./tech/promptengineering.png";
+import mcp from "./tech/mcp.png";
+import A2a from "./tech/A2a.png";
+import multiagentsystem from "./tech/multiagentsystem.png";
+import fastapi from "./tech/fastapi.png";
+import faiss from "./tech/faiss.png";
+import vectordb from "./tech/vectordb.png";
+import sematic from "./tech/sematic.png";
+import embedding from "./tech/embedding.png";
+import docker from "./tech/docker.png";
 
 import virtuowhiz from "./company/virtuowhiz.png";
 import bootes from "./company/bootes.png";
@@ -54,7 +67,19 @@ export {
   jupyter,
   vscode,
   mysql,
-
+  genai,
+  aiagents,
+  agenticai,
+  promptengineering,
+  mcp,
+  A2a,
+  multiagentsystem,
+  fastapi,
+  faiss,
+  vectordb,
+  sematic,
+  embedding,
+  docker,
   virtuowhiz,
   bootes,
   upflairs,

@@ -12,9 +12,10 @@ interface IServiceCard {
   index: number;
   title: string;
   icon: string;
+  description: string;
 }
 
-const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
+const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon, description }) => (
   <Tilt
     glareEnable
     tiltEnable
@@ -22,12 +23,12 @@ const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
     tiltMaxAngleY={30}
     glareColor="#aaa6c3"
   >
-    <div className="max-w-[250px] w-full xs:w-[250px]">
+      <div className="max-w-[280px] w-full xs:w-[250px]">
       <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
         className="green-pink-gradient shadow-card w-full rounded-[20px] p-[1px]"
       >
-        <div className="bg-tertiary flex min-h-[280px] flex-col items-center justify-evenly rounded-[20px] px-12 py-5">
+        <div className="bg-tertiary flex min-h-[300px] flex-col items-center justify-evenly rounded-[20px] px-7 py-6">
           <img
             src={icon}
             alt="web-development"
@@ -37,6 +38,7 @@ const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
           <h3 className="text-center text-[20px] font-bold text-white">
             {title}
           </h3>
+          <p className="text-center text-sm leading-6 text-secondary">{description}</p>
         </div>
       </motion.div>
     </div>

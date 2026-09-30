@@ -33,6 +33,19 @@ import {
   jupyter,
   vscode,
   mysql,
+  genai,
+  aiagents,
+  agenticai,
+  promptengineering,
+  mcp,
+  A2a,
+  multiagentsystem,
+  fastapi,
+  faiss,
+  vectordb,
+  sematic,
+  embedding,
+  docker,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -52,20 +65,29 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "AI Application Developer",
+    title: "Generative AI Developer",
     icon: backend,
+    description: "LLM applications, RAG, LangChain, LangGraph, prompt engineering, vector search, and AI-powered products.",
   },
   {
-    title: "Data Analyst",
-    icon: creator,
+    title: "Agentic AI Developer",
+    icon: ai,
+    description: "AI agents, LangGraph workflows, multi-agent systems, MCP, A2A communication, tool calling.",
   },
   {
     title: "Machine Learning Engineer",
     icon: web,
+    description: "Machine learning pipelines, predictive modeling, and data-driven applications.",
   },
   {
     title: "Python Developer",
     icon: mobile,
+    description: "Python services and APIs for data, machine learning, and AI applications.",
+  },
+  {
+    title: "AI Application Developer",
+    icon: creator,
+    description: "End-to-end AI applications that connect models, data, and dependable backend services.",
   },
 ];
 
@@ -106,6 +128,20 @@ const technologies: TTechnology[] = [
     name: "LLMs",
     icon: ai,
   },
+  { name: "Generative AI", icon: genai },
+  { name: "AI Agents", icon: aiagents },
+  { name: "Agentic AI", icon: agenticai },
+  { name: "Prompt Engineering", icon: promptengineering },
+  { name: "MCP", icon: mcp },
+  { name: "A2A Protocol", icon: A2a },
+  { name: "Multi-Agent Systems", icon: multiagentsystem },
+  { name: "FastAPI", icon: fastapi },
+  { name: "Flask", icon: backend },
+  { name: "FAISS", icon: faiss },
+  { name: "Vector Databases", icon: vectordb },
+  { name: "Semantic Search", icon: sematic },
+  { name: "Embeddings", icon: embedding },
+  { name: "Docker", icon: docker },
   {
     name: "Git",
     icon: git,
@@ -252,7 +288,22 @@ const projects: TProject[] = [
       },
     ],
     image: infowave_ai,
-    sourceCodeLink: "https://github.com/nitesh-kumar-pandey",
+    sourceCodeLink: "https://github.com/nitesh-kumar-pandey/InfoWave-AI",
+  },
+  {
+    name: "GitHub MCP Server",
+    description:
+      "MCP-based AI integration enabling LLMs and AI agents to interact with GitHub through structured tools. Implements Model Context Protocol with secure authentication for repository, issue, pull request, and workflow operations.",
+    tags: [
+      { name: "python", color: "blue-text-gradient" },
+      { name: "fastapi", color: "green-text-gradient" },
+      { name: "mcp", color: "pink-text-gradient" },
+      // { name: "github-api", color: "orange-text-gradient" },
+      // { name: "oauth", color: "blue-text-gradient" },
+      { name: "ai-agents", color: "green-text-gradient" },
+    ],
+    image: infowave_ai,
+    sourceCodeLink: "https://github.com/nitesh-kumar-pandey/github-mcp-server",
   },
   {
     name: "Restaurant Rating Prediction",
@@ -273,7 +324,7 @@ const projects: TProject[] = [
       },
     ],
     image: restaurant_rating,
-    sourceCodeLink: "https://github.com/nitesh-kumar-pandey",
+    sourceCodeLink: "https://github.com/nitesh-kumar-pandey/restaurant_rating_predictio",
   },
 ];
 
