@@ -18,6 +18,7 @@ import {
   upflairs,
   finai_pro,
   infowave_ai,
+  gitmcp,
   restaurant_rating,
 
   python,
@@ -302,7 +303,7 @@ const projects: TProject[] = [
       // { name: "oauth", color: "blue-text-gradient" },
       { name: "ai-agents", color: "green-text-gradient" },
     ],
-    image: infowave_ai,
+    image: gitmcp,
     sourceCodeLink: "https://github.com/nitesh-kumar-pandey/github-mcp-server",
   },
   {

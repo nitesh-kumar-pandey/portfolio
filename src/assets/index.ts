@@ -42,6 +42,7 @@ import upflairs from "./company/upflairs.png";
 import finai_pro from "./finai_pro.png";
 import infowave_ai from "./infowave_ai.png";
 import restaurant_rating from "./restaurant_rating.png";
+import gitmcp from "./gitmcp.png";
 
 export {
   logo,
@@ -87,4 +88,5 @@ export {
   finai_pro,
   infowave_ai,
   restaurant_rating,
+  gitmcp,
 };
